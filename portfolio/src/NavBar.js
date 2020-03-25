@@ -57,7 +57,7 @@ class FullPageIntroWithFixedNavbar extends React.Component {
 
                 <main>
                     <MDBContainer className="text-center my-5">
-                        <p align="justify">I am a software engineer that has skills in both the back-end of web applications and the front-end. I want a deeper involvement in building out applications. In the next phase of my career, I not only want to use my design skills to make the application look beautiful, but I also want to work on the technically challenging facets of the application too. At my ideal company, I would like to work on a small team (5-8 people) that follows best practices like Test Driven Development and pair programming to help me learn and grow as a developer.</p>
+                        <p align="justify" class="animated fadeInDownBig slower delay-1s">I am a software engineer that has skills in both the back-end of web applications and the front-end. I want a deeper involvement in building out applications. In the next phase of my career, I not only want to use my design skills to make the application look beautiful, but I also want to work on the technically challenging facets of the application too. At my ideal company, I would like to work on a small team (5-8 people) that follows best practices like Test Driven Development and pair programming to help me learn and grow as a developer.</p>
                     </MDBContainer>
                 </main>
             </div>
