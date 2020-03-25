@@ -5,13 +5,10 @@ const Projects = () => {
     return (
         <section className="text-center my-5">
             <h2 className="h1-responsive font-weight-bold my-5">
-                Our best projects
+                My Projects
         </h2>
             <p className="grey-text w-responsive mx-auto mb-5">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                est laborum.
+                
         </p>
 
             <MDBRow className="d-flex justify-content-center">
@@ -38,7 +35,7 @@ const Projects = () => {
                             The Marvel Cinematic Universe is a shared universe created by Marvel Studios, set primarily in the reality designated as Earth-199999 within Marvel's multiverse system. Starting with Iron Man, the universe is comprised mainly of films independently made by Marvel Studios, that are always set within this same universe, much like Marvel has done with their comics. I have been a Marvel fan since I was a kid, so this project was extra fun for me. This was built using HTML5, CSS and JavaScript.
               </p>
                         <MDBBtn color="success" rounded>
-                            MDBView more
+                            View more
               </MDBBtn>
                     </MDBCardBody>
                 </MDBCol>

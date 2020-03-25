@@ -3,6 +3,7 @@ import React from 'react';
 import Projects from './Projects';
 import Contact from './Contact';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
@@ -16,6 +17,7 @@ function App() {
       {/* <About /> */}
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -44,19 +44,20 @@ class FullPageIntroWithFixedNavbar extends React.Component {
                         </MDBNavbar>
                     </Router>
 
-                    <MDBView src="https://techcrunch.com/wp-content/uploads/2014/12/matrix.jpg?w=730&crop=1">
+                    <MDBView src="https://media.tenor.com/images/0797ea67eae15fcb5ed4b0c219dff9c2/tenor.gif">
                         <MDBMask overlay="black-light" className="flex-center flex-column text-white text-center">
-                            <h2>This Navbar is fixed</h2>
-                            <h5>It will always stay visible on the top, even when you scroll down</h5>
+                            <h2 className="animated fadeInLeftBig slower">Jarod McGill</h2>
+                            <h5 className="animated fadeInRightBig slower">Developer | Designer</h5>
                             <br />
-                            <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+                            <p className="animated fadeInLeftBig slower delay-2s">“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”
+― John Woods</p>
                         </MDBMask>
                     </MDBView>
                 </header>
 
                 <main>
                     <MDBContainer className="text-center my-5">
-                        <p align="justify">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p align="justify">I am a software engineer that has skills in both the back-end of web applications and the front-end. I want a deeper involvement in building out applications. In the next phase of my career, I not only want to use my design skills to make the application look beautiful, but I also want to work on the technically challenging facets of the application too. At my ideal company, I would like to work on a small team (5-8 people) that follows best practices like Test Driven Development and pair programming to help me learn and grow as a developer.</p>
                     </MDBContainer>
                 </main>
             </div>
